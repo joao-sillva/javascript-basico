@@ -13,7 +13,7 @@ console.log(`
   ${null ? 'Verdadeiro' : 'Falso'}   
   ${undefined ? 'Verdadeiro' : 'Falso'}
   ${NaN ? 'Verdadeiro' : 'Falso'}
-`)
+`);
 
 console.log(`
   Exemplos de truthy
@@ -23,5 +23,5 @@ console.log(`
   ${{} ? 'Verdadeiro' : 'Falso'}   
   ${[] ? 'Verdadeiro' : 'Falso'}   
   ${Infinity ? 'Verdadeiro' : 'Falso'}   
-  ${"John Doe" ? 'Verdadeiro' : 'Falso'}
-`)
+  ${'John Doe' ? 'Verdadeiro' : 'Falso'}
+`);
